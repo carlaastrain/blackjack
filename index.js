@@ -150,6 +150,7 @@ function playDealer() {
 }
 
 function resetGame() {
+  document.getElementById("shuffle-sound").play();
   shuffledDeck = shuffle();
   dealerHand = [shuffledDeck.pop(), shuffledDeck.pop()];
   playerHand = [shuffledDeck.pop(), shuffledDeck.pop()];
