@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <title>BLACKJACK</title>
+    <script src="index.js" defer></script>
+  </head>
+
+  <body>
+    <div class="black">
+      <h1>BLACK<span>JACK</span></h1>
+    </div>
+
+    <h2>DEALER SCORE: <span id="score-dealer" class="score"></span></h2>
+    <p>WITH 16 HIT, WITH 17 OR MORE STAY</p>
+    <div id="dealer-cards" class="flex-container"></div>
+
+    <h2>
+      YOUR SCORE: <span id="score-player" class="score"></span
+      ><span id="win-lose"></span>
+    </h2>
+    <p>ACES ARE WORTH 1 OR 11</p>
+
+    <div id="player-cards" class="flex-container"></div>
+
+    <div class="game-options">
+      <button id="restart">Restart</button>
+      <button id="hit">Hit</button>
+      <button id="stay">Stay</button>
+    </div>
+  </body>
+</html>

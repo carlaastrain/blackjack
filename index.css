@@ -1,0 +1,113 @@
+html {
+  background-color: darkolivegreen;
+  text-align: center;
+  font-family: serif;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+}
+
+body {
+  font-family: "Garamond", serif;
+  letter-spacing: 0.3 em;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-block-end: 0;
+  margin-block-start: 0.4em;
+}
+
+h2 {
+  margin-block-end: 0;
+  margin-block-start: 0.4em;
+}
+
+p {
+  margin-block-end: 0;
+  margin-block-start: 0.4em;
+}
+
+.black {
+  background-color: wheat;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+  margin: 0;
+  margin-block-end: 0;
+}
+
+.black h1 span {
+  font-size: 60px;
+  color: red;
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  padding: 8px;
+  display: flex;
+  background-color: whitesmoke;
+  margin: 20px;
+  height: 220px;
+  width: 150px;
+  border: 10px double black;
+  border-radius: 10px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-content: center;
+}
+
+.card-value-row {
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+}
+
+.flip-vertical {
+  transform: scaleY(-1) scaleX(-1);
+}
+
+.card-suit {
+  flex: 1;
+  text-align: center;
+}
+
+.game-options {
+  position: sticky;
+  bottom: 10px;
+}
+
+button {
+  border: 3px solid black;
+  background-color: rgb(41, 29, 29);
+  font-weight: bold;
+  color: whitesmoke;
+  font-size: 18px;
+  padding: 8px;
+  border-radius: 5px;
+  min-width: 100px;
+}
+button:disabled {
+  border: 0px;
+  background-color: darkgray;
+  color: black;
+}
+
+.score {
+  color: yellow;
+  font-size: 30px;
+  font-weight: 900;
+  font-family: serif;
+}
+
+#win-lose {
+  color: red;
+  font-size: 90px;
+  font-weight: 900;
+  font-family: serif;
+}
